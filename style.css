@@ -1,0 +1,71 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: rgb(26, 26, 201);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-card {
+    width: 350px;
+    text-align: left;
+    border-radius: 17px;
+    overflow: hidden;
+    background-color: midnightblue;
+}
+
+.card-header {
+    background: #1462aa;
+}
+
+.photo {
+    align-items: flex-start;
+}
+
+.photo img {
+    padding: 15px;
+}
+
+.name {
+    text-decoration: none;
+    padding-left: 15px;
+}
+
+.name h3 {
+    color: aliceblue;
+}
+
+.description {
+    padding: 15px;
+    color: #1462aa;
+}
+
+.logo a {
+    padding-left: 15px;
+    color: cyan;
+    font-size: x-small;
+}
+
+.person {
+    padding-left: 15px;
+    width: 200vh;
+}
+
+.person p {
+    color: white;
+    font-size: smaller;
+}
+
+.person p img {
+    border-radius: 100%;
+    border-color: 2px solid black;
+}
